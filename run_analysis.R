@@ -65,5 +65,6 @@ tidyData <- group_by(data2, Subject, Activity)
 # Then, use summarize_at() to get the mean of each column for each group as desired.
 newData <- tidyData %>%
     summarize_at(vars(contains(c("mean", "std"))), mean)
-# The newData dataset is tidy and contains the average of each variable for each activity
-# and subject.
+# The tidyData dataset is tidy and contains measurements of the mean and standard deviation
+# variables recorded in the original dataset. The newData dataset is tidy and contains the
+# means of the columns in the tidyData dataset by subject and activity.
