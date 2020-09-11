@@ -33,6 +33,6 @@ fBodyAccJerkMag,
 fBodyGyroMag, 
 fBodyGyroJerkMag" 
 
-For each of these variables, the mean and standard deviation were calculated, along with other statistical measurements. Thus, this vector of the statistical measurements associated with the above variables, separated into the test and training data, comprised the raw data for this project.
+For each of these variables, the mean and standard deviation, along with other statistical measurements, were calculated for each sampling interval. Thus, this vector of the statistical measurements associated with the above variables, separated into the test and training data, comprised the raw data for this project.
 
 The runAnalysis.R script provided in this respository produces two tidy datasets from the messy dataset described above. The first, 
