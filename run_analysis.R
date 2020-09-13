@@ -61,9 +61,9 @@ levels(data2$Activity) <- activity_labels
 # To do this, we use dplyr.
 library(dplyr)
 # Group data2 by subject and by activity.
-tidyData <- group_by(data2, Subject, Activity)
+final_feature_data <- group_by(data2, Subject, Activity)
 # Then, use summarize_at() to get the mean of each column for each group as desired.
-newData <- tidyData %>%
+final_feature_averages <- final_feature_data %>%
     summarize_at(vars(contains(c("mean", "std"))), mean)
 # The tidyData dataset is tidy and contains measurements of the mean and standard deviation
 # variables recorded in the original dataset. The newData dataset is tidy and contains the
