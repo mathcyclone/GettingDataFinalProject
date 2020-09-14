@@ -15,11 +15,11 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ, 
-tGravityAcc-XYZ, 
-tBodyAccJerk-XYZ, 
-tBodyGyro-XYZ, 
-tBodyGyroJerk-XYZ, 
+-tBodyAcc-XYZ, 
+-tGravityAcc-XYZ, 
+-tBodyAccJerk-XYZ, 
+-tBodyGyro-XYZ, 
+-tBodyGyroJerk-XYZ, 
 tBodyAccMag, 
 tGravityAccMag, 
 tBodyAccJerkMag, 
@@ -33,6 +33,6 @@ fBodyAccJerkMag,
 fBodyGyroMag, 
 fBodyGyroJerkMag" 
 
-For each of these variables, the mean and standard deviation, along with other statistical measurements, were calculated for each sampling interval. Thus, this vector of the statistical measurements associated with the above variables, separated into the test and training data, comprised the raw data for this project.
+For each of these variables, the mean and standard deviation, along with other statistical measurements, were calculated for each sampling interval. Thus, this vector of the statistical measurements associated with the above variables for each sampling interval, separated into the test and training data, comprised the raw data for this project.
 
 The runAnalysis.R script provided in this respository produces two tidy datasets from the messy dataset described above. The first, final_feature_data, provides the means and standard deviations of the feature data at each sampling interval from both the testing and training datasets in one table, with the associated subject and activity noted for each interval (and the columns labeled with the corresponding variables, unlike the raw data). The second tidy dataset that is produced, final_feature_averages, contains the averages of the data in final_feature_data separated by subject and activity.
