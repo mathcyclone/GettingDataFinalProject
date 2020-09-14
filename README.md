@@ -20,18 +20,18 @@ These signals were used to estimate variables of the feature vector for each pat
 - tBodyAccJerk-XYZ, 
 - tBodyGyro-XYZ, 
 - tBodyGyroJerk-XYZ, 
-tBodyAccMag, 
-tGravityAccMag, 
-tBodyAccJerkMag, 
-tBodyGyroMag, 
-tBodyGyroJerkMag, 
-fBodyAcc-XYZ, 
-fBodyAccJerk-XYZ, 
-fBodyGyro-XYZ, 
-fBodyAccMag,  
-fBodyAccJerkMag, 
-fBodyGyroMag, 
-fBodyGyroJerkMag" 
+- tBodyAccMag, 
+- tGravityAccMag, 
+- tBodyAccJerkMag, 
+- tBodyGyroMag, 
+- tBodyGyroJerkMag, 
+- fBodyAcc-XYZ, 
+- fBodyAccJerk-XYZ, 
+- fBodyGyro-XYZ, 
+- fBodyAccMag,  
+- fBodyAccJerkMag, 
+- fBodyGyroMag, 
+- fBodyGyroJerkMag" 
 
 For each of these variables, the mean and standard deviation, along with other statistical measurements, were calculated for each sampling interval. Thus, this vector of the statistical measurements associated with the above variables for each sampling interval, separated into the test and training data, comprised the raw data for this project.
 
