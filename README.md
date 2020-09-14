@@ -33,6 +33,6 @@ These signals were used to estimate variables of the feature vector for each pat
 - fBodyGyroMag, 
 - fBodyGyroJerkMag" 
 
-For each of these variables, the mean and standard deviation, along with other statistical measurements, were calculated for each sampling interval. Thus, this vector of the statistical measurements associated with the above variables for each sampling interval, separated into the test and training data, comprised the raw data for this project.
+For each of these variables, the mean and standard deviation, along with other statistical measurements, were calculated for each sampling interval. Each column of the resulting table was normalized to lie within [-1, 1]. Thus, this table of vectors of the statistical measurements associated with the above variables for each sampling interval, separated into the test and training data, comprised the raw data for this project.
 
 The runAnalysis.R script provided in this respository produces two tidy datasets from the messy dataset described above. The first, final_feature_data, provides the means and standard deviations of the feature data at each sampling interval from both the testing and training datasets in one table, with the associated subject and activity noted for each interval (and the columns labeled with the corresponding variables, unlike the raw data). The second tidy dataset that is produced, final_feature_averages, contains the averages of the data in final_feature_data separated by subject and activity.
