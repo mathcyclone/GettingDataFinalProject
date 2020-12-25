@@ -69,3 +69,6 @@ final_feature_averages <- final_feature_data %>%
 # deviation variables recorded in the original dataset. The final_feature_averages dataset 
 # is tidy and contains the means of the columns in the tidyData dataset by subject and 
 # activity.
+
+# Write the final_feature_averages dataset to a text file.
+write.table(final_feature_averages, file="tidy_averages.txt", row.name=FALSE)
